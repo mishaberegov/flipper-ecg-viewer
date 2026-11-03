@@ -1,0 +1,10 @@
+App(
+    appid="ecg_viewer_v2",
+    name="ECG Viewer",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ecg_viewer_app",
+    sources=["src/*.c"],
+    stack_size=2048,
+    fap_category="Tools",
+    fap_version="2.0",
+)
